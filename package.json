@@ -1,0 +1,25 @@
+{
+  "name": "crypto-finding-blocks",
+  "version": "1.0.0",
+  "description": "Find the last block in bitcoin using nodejs",
+  "main": "findingBlck.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/sarath6080/Crypto-Finding-Blocks.git"
+  },
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/sarath6080/Crypto-Finding-Blocks/issues"
+  },
+  "homepage": "https://github.com/sarath6080/Crypto-Finding-Blocks#readme",
+  "dependencies": {
+    "bitcoin": "^3.0.1",
+    "bitcore-explorers": "^1.0.1",
+    "blockchain.info": "^2.12.1",
+    "save": "^2.3.2"
+  }
+}
