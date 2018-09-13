@@ -17,9 +17,7 @@
   },
   "homepage": "https://github.com/sarath6080/Crypto-Finding-Blocks#readme",
   "dependencies": {
-    "bitcoin": "^3.0.1",
-    "bitcore-explorers": "^1.0.1",
-    "blockchain.info": "^2.12.1",
+    "bitcoin-core": "^2.0.0",
     "save": "^2.3.2"
   }
 }
