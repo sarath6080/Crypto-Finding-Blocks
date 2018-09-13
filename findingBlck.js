@@ -1,13 +1,15 @@
 // used with Bitcoin-core package.
 const BitcoindClient = require("bitcoin-core");
-const config =  {
+const config = require('config');
+
+const rpcConfig =  {
     network: 'testnet',
-    username: 'xxxxx',
-    password: 'xxxxx',
-    host: "127.0.0.1" 
+    username: config.get("rpc.username"),
+    password: config.get("rpc.password"),
+    host: config.get("rpc.host")
 };
 
-const bitcoindclient = new BitcoindClient(config);
+const bitcoindclient = new BitcoindClient(rpcConfig);
 
 bitcoindclient.getBlockchainInfo().then((help) => console.log(help));
 
